@@ -41,6 +41,9 @@
         <br>
         <h3>Task 2</h3>
         <a href="{{route('task2.index')}}">Task 2</a>
+        <br>
+        <h3>Task 3</h3>
+        <a href="{{route('elements.index')}}">Task 3 </a>
     </div>
 
 

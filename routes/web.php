@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\ElementController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,5 +48,12 @@ Route::post('/courses/{course}/assign', [CourseController::class, 'assignStudent
 Route::get('/task2', function() {
     return view('task2.index');
 })->name('task2.index');
+
+// Task 3 ROutes are here
+
+
+
+Route::get('/elements', [ElementController::class, 'showElements'])->name('elements.index');
+
 
 
